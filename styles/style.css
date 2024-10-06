@@ -16,7 +16,7 @@
 .header__links-list {
   display: flex;
   justify-content: space-evenly;
-  text-underline-offset: 4px;
+  
 
 }
 
@@ -63,7 +63,7 @@
   position: relative;
   z-index: -1;
   background-position: center;
-  padding: 169px 50px 50px;
+  padding: 172px 50px 54px;
 }
 
 .overlay {
@@ -88,7 +88,7 @@
 
 .text-span {
   display: block;
-  line-height: auto;
+  line-height: 118%;
 }
 .letter-spacing {
   letter-spacing: 0.6em;
@@ -105,7 +105,7 @@
 }
 
 .cover-footer {
-  padding-top: 131px;
+  padding-top: 125px;
   padding-left: 28px;
   display: flex;
   align-items: center;
@@ -135,7 +135,7 @@
 /* стили для секции lots */
 
 .lots {
-  padding: 179px 24px 146px;
+  padding: 175px 24px 146px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -151,7 +151,6 @@
   background-size: cover;
   position: relative;
   min-width: 334px;
-  min-height: 563px;
   background-position: center;
   z-index: -1;
 }
@@ -205,6 +204,7 @@
   font-weight: 400;
   padding-left: 40px;
   padding-top: 30px;
+  text-underline-offset: 4px;
 }
 
 /* стили для секции about */
